@@ -1,3 +1,4 @@
+
 import { useEffect, useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
@@ -8,6 +9,7 @@ import About from './pages/About';
 import Contact from './pages/Contsct';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
+
 
 function App() {
   const [loading, setLoading] = useState(true);

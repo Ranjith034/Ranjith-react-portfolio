@@ -1,4 +1,4 @@
-import "boxicons";
+
 import { motion } from "framer-motion";
 import { useState } from 'react';
 import Certification from '../components/Certification';

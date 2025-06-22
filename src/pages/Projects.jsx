@@ -1,8 +1,10 @@
-import "boxicons";
+
 import { motion } from "framer-motion";
 import Swal from 'sweetalert2';
 import { assets } from "../assets/assets";
 import moreImage from '../assets/Group 108.png';
+
+
 
 
 
@@ -51,7 +53,7 @@ console.log(moreImage);
             
              <div className="flex items-center group cursor-pointer">
   <div className="w-[70px] h-[70px] rounded-[50%] flex justify-center items-center border-2 border-gray-600">
-    <box-icon name='right-arrow-alt' animation='burst' color='#ffffff'></box-icon>
+    <i class='bx bx-right-arrow-alt text-white bx-burst'></i>
   </div>
 
   <div className="w-[110px] h-[39px] ml-[1rem] border-2 border-gray-600 rounded-md hidden group-hover:flex items-center justify-center transition-all duration-300">
@@ -74,7 +76,7 @@ console.log(moreImage);
       <img src={assets.tr} alt="Project 1" className="w-full h-[13rem] object-cover" />
       <div className="absolute bottom-0 left-0 w-full bg-white/30 backdrop-blur-md p-3 z-10">
         <h3 className="text-gray-700 font-montserrat text-base">Lawyer Appointment Project</h3>
-        <img src={assets.title} className="w-[18vh]" />
+        <img src={assets.title} alt ="" className="w-[18vh]" />
       </div>
       <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-20">
         <div className="bg-white/30 backdrop-blur-md px-6 py-4 rounded-lg transform translate-y-10 group-hover:translate-y-0 transition-all duration-500 ease-out">
@@ -91,7 +93,7 @@ console.log(moreImage);
       <img src={assets.tl} alt="Project 2" className="w-full h-[13rem] object-cover" />
       <div className="absolute bottom-0 left-0 w-full bg-white/30 backdrop-blur-md p-3 z-10">
         <h3 className="text-gray-700 font-montserrat text-base">Portfolio Web Site</h3>
-        <img src={assets.three} className="w-[10vh]" />
+        <img src={assets.three} alt="" className="w-[10vh]" />
       </div>
      <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-20">
         <div className="bg-white/30 backdrop-blur-md px-6 py-4 rounded-lg transform translate-y-10 group-hover:translate-y-0 transition-all duration-500 ease-out">
@@ -108,7 +110,7 @@ console.log(moreImage);
       <img src={assets.b2} alt="Project 3" className="w-full h-[13rem] object-cover" />
       <div className="absolute bottom-0 left-0 w-full bg-white/30 backdrop-blur-md p-3 z-10">
         <h3 className="text-gray-700 font-montserrat text-base">Bus Booking UI/UX Design</h3>
-        <img src={assets.two} className="w-[9vh]" />
+        <img src={assets.two} alt="" className="w-[9vh]" />
       </div>
      <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-20">
         <div className="bg-white/30 backdrop-blur-md px-6 py-4 rounded-lg transform translate-y-10 group-hover:translate-y-0 transition-all duration-500 ease-out">
@@ -125,7 +127,7 @@ console.log(moreImage);
       <img src={assets.b1} alt="Project 4" className="w-full h-[13rem] object-cover" />
       <div className="absolute bottom-0 left-0 w-full bg-white/30 backdrop-blur-md p-3 z-10">
         <h3 className="text-gray-700 font-montserrat text-base">Food Order UI/UX Design</h3>
-        <img src={assets.two} className="w-[9vh]" />
+        <img src={assets.two} alt="" className="w-[9vh]" />
       </div>
      <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-20">
         <div className="bg-white/30 backdrop-blur-md px-6 py-4 rounded-lg transform translate-y-10 group-hover:translate-y-0 transition-all duration-500 ease-out">

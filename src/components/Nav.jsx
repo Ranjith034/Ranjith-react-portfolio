@@ -19,6 +19,7 @@ const Nav = () => {
     <div className='md:flex md:justify-between md:mx-6 md:items-center flex justify-between'>
        <div className="">
         <motion.img src={assets.logo}
+        alt=""
        className="w-[8vh] cursor-pointer"
        initial={{ x: -100, opacity: 0 }}
        animate={{ x: 0, opacity: 1 }}

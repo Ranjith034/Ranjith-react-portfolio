@@ -1,6 +1,8 @@
 import { motion } from "framer-motion"
 
 
+
+
 const Home = () => {
   return (
     <div className="md:flex text-center md:justify-around  md:h-[80vh] ">

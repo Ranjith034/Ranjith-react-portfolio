@@ -27,7 +27,7 @@ const Loader = () => {
         <div className="text-center">
           <div className="">
           <div className="text-white text-[5rem] font-montserrat overflow-hidden   animate-typing">
-            <img src={assets.logo}  className="w-[15vh] h-[15vh] flex justify-center ml-[6rem]"/>
+            <img src={assets.logo}  alt ="" className="w-[15vh] h-[15vh] flex justify-center ml-[6rem]"/>
         
       </div>
      
