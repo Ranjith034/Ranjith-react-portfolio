@@ -94,26 +94,26 @@ const Nav = () => {
      <div className={`absolute  right-0  mt-[1rem] 
             ${
             checked
-            ? "block w-[200px]  p-[1rem] bg-white/10 backdrop-blur-none rounded-lg"
+            ? "block w-[200px]  p-[1rem] bg-white rounded-lg"
             : "hidden"
         }`}>
-        <button className="font-montserrat text-lg text-white font-medium cursor-pointer pb-2 hover:bg-slate-600 rounded-md m-1 ps-2 flex pt-1" onClick = {() => navigate("/")}>Home</button>
-        <button className="font-montserrat text-lg text-white font-medium cursor-pointer pb-2 hover:bg-slate-600 rounded-md m-1 ps-2 flex pt-1" onClick = {() => navigate('/about')}>About</button>
-        <button className="font-montserrat text-lg text-white font-medium cursor-pointer pb-2 hover:bg-slate-600 rounded-md m-1 ps-2 flex pt-1" onClick = {() => navigate('/project')}>Projects</button>
-        <button className="font-montserrat text-lg text-white font-medium cursor-pointer pb-2 hover:bg-slate-600 rounded-md m-1 ps-2 flex pt-1" onClick = {() => navigate('/contact')}>Contact</button>
+        <button className="font-montserrat text-lg text-black font-medium cursor-pointer pb-2 w-full hover:bg-slate-50 rounded-md m-1 ps-2 flex pt-1" onClick = {() => navigate("/")}>Home</button>
+        <button className="font-montserrat text-lg text-black font-medium cursor-pointer pb-2 w-full hover:bg-slate-50 rounded-md m-1 ps-2 flex pt-1" onClick = {() => navigate('/about')}>About</button>
+        <button className="font-montserrat text-lg text-black font-medium cursor-pointer pb-2 w-full hover:bg-slate-50 rounded-md m-1 ps-2 flex pt-1" onClick = {() => navigate('/project')}>Projects</button>
+        <button className="font-montserrat text-lg text-black font-medium cursor-pointer pb-2 w-full hover:bg-slate-50 rounded-md m-1 ps-2 flex pt-1" onClick = {() => navigate('/contact')}>Contact</button>
         </div>
         </div>
         <div className="md:hidden ">
          <div className={`absolute  right-0  mt-[1rem]
             ${
             checked
-            ? "block w-[160px]  p-2 bg-white/10 backdrop-blur-none rounded-lg"
+            ? "block w-[160px]  p-2 bg-white rounded-lg"
             : "hidden"
         }`}>
-        <button className="font-montserrat text-md text-white font-medium cursor-pointer pb-1 hover:bg-slate-600 rounded-md m-1 ps-2 flex pt-1" onClick={() => navigate('/')}>Home</button>
-        <button className="font-montserrat text-md text-white font-medium cursor-pointer pb-1 hover:bg-slate-600 rounded-md m-1 ps-2 flex pt-1" onClick={() => navigate("/about")}>About</button>
-        <button className="font-montserrat text-md text-white font-medium cursor-pointer pb-1 hover:bg-slate-600 rounded-md m-1 ps-2 flex pt-1" onClick={() => navigate('/project')}>Projects</button>
-        <button className="font-montserrat text-md text-white font-medium cursor-pointer pb-1 hover:bg-slate-600 rounded-md m-1 ps-2 flex pt-1" onClick={() => navigate('/contact')}>Contact</button>
+        <button className="font-montserrat text-md text-black font-medium cursor-pointer w-full pb-1 hover:bg-slate-50 rounded-md m-1 ps-2 flex pt-1" onClick={() => navigate('/')}>Home</button>
+        <button className="font-montserrat text-md text-black font-medium cursor-pointer w-full pb-1 hover:bg-slate-50 rounded-md m-1 ps-2 flex pt-1" onClick={() => navigate("/about")}>About</button>
+        <button className="font-montserrat text-md text-black font-medium cursor-pointer w-full pb-1 hover:bg-slate-50 rounded-md m-1 ps-2 flex pt-1" onClick={() => navigate('/project')}>Projects</button>
+        <button className="font-montserrat text-md text-black font-medium cursor-pointer w-full pb-1 hover:bg-slate-50 rounded-md m-1 ps-2 flex pt-1" onClick={() => navigate('/contact')}>Contact</button>
         </div>
         </div>
     </div>
