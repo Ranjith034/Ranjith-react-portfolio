@@ -16,7 +16,10 @@ const Home = () => {
         <motion.h1 
         initial={{ x: 100, opacity: 0 }}   // Start off-screen right
       animate={{ x: 0, opacity: 1 }}     // Animate to position
-      transition={{ duration: 0.8, ease: "easeOut" }}className="font-montserrat md:text-[2rem] text-[1.5rem] text-white pt-[2rem]">MERN <span className="text-blue-700">STACK</span> DEVELOPER</motion.h1>
+      transition={{ duration: 0.8, ease: "easeOut" }}className="font-montserrat md:text-[2rem] text-[1.5rem] text-white pt-[2rem]">
+        
+       UX / <span className="text-blue-700">UI</span> DESIGNER & MERN <span className="text-blue-700">STACK</span> DEVELOPER</motion.h1>
+
         <motion.p   initial={{ y: -50, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.7, ease: "easeOut" }}
